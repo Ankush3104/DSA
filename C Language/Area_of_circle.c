@@ -4,6 +4,7 @@
 
 int main(){
  double r,area;
+ #define M_PI 3.14159265358979323846
 
     printf("Enter the radius of the circle \n");
     scanf("%lf", &r);
