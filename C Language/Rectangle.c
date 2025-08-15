@@ -8,7 +8,7 @@ int main(){
     printf("Enter the Breadth\n");
     scanf("%d",&b);
 
-    r = l*b;
+    r = l*b; // formula
 
     printf("The result is %d",r);
 
