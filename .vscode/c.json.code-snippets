@@ -1,0 +1,25 @@
+{
+    "C Boilerplate": {
+        "prefix": "cboilerplate",
+        "body": [
+            "#include <stdio.h>",
+            "#include <conio.h>",
+            "",
+            "int main(void)",
+            "{",
+            "    // clrscr(); // (optional in Turbo C) clear the screen",
+            "",
+            "    /* ===== Your code starts here ===== */",
+            "",
+            "",
+            "",
+            "    /* ===== Your code ends here ===== */",
+            "",
+            "    printf(\"\\\\nPress any key to exit...\");",
+            "    getch();",
+            "    return 0;",
+            "}"
+        ],
+        "description": "Turbo C style C boilerplate code"
+    }
+}
