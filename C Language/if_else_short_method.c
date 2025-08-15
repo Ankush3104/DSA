@@ -5,4 +5,4 @@ int main(){
 
     a>b? printf("a is greater\n") : printf("b is greater\n");
     return 0;
-}
+} //a is greater 
