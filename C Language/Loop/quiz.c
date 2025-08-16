@@ -3,13 +3,16 @@
 
 int main(void)
 {
-    int i = 1;
-    while (i<=10)
+    int i = 0;
+
+    while (i <= 20)
     {
-        printf("%d\n",i);
+        if (i >= 10)
+        {
+            printf("%d\n", i);
+        }
         i++;
     }
-    
 
     getch();
     return 0;
