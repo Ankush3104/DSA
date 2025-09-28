@@ -10,8 +10,9 @@ int main() {
     if (n < 0) {
         printf("Factorial of negative numbers is not defined.\n");
     } else {
-        for (i = 1; i <= n; i++) {
+        for (i = 2; i <= n; i++) {
             fact = fact * i;
+            printf("Factorial of %d = %llu\n", n, fact);
         }
         printf("Factorial of %d = %llu\n", n, fact);
     }
